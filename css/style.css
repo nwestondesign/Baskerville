@@ -34,6 +34,10 @@ p, blockquote {
 
 }
 
+header {
+    margin-bottom: 3rem
+}
+
 h1, h2 {
     color: rgb(21, 36, 132)
 }
