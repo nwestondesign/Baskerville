@@ -53,7 +53,13 @@ blockquote {
     font-style: italic;
     font-size: 1.5rem;
     color: rgb(21, 36, 132);
-    margin: 2rem 3rem 2rem 3rem;
+    margin: 2rem 3.5rem 2rem 3.5rem;
+}
+cite {
+    font-style: normal;
+    font-size: 1.1rem;
+    color: rgb(21, 36, 132);
+    margin: 2rem 3.5rem 2rem 3.5rem;
 }
 
 h2{
@@ -61,11 +67,11 @@ h2{
     margin: 3rem 0 2rem 0;
 }
 
-hr{
-    margin: auto;
-    width: 600px;
+.leader {
     color:rgb(21, 36, 132);
+    text-transform: uppercase;
 }
+
 /*--nav styling--*/
 
 nav {
@@ -153,6 +159,27 @@ table, td{
     border: 2px solid rgb(246, 246, 246);
 }
 
+/*--hr styling--*/
+
+hr{
+    margin: 100px 0;
+    height: 2px;
+    width: 600px;
+    color:rgb(21, 36, 132);
+    background-color: rgb(21, 36, 132);
+    border: 0 none;
+    
+}
+
+/*--img styling--*/
+
+img {
+    display: block;
+    margin: 3rem 0;
+    padding: 0;
+    max-width: 100%;
+}
+
 /*--footer styling--*/
 
 footer{
@@ -161,15 +188,9 @@ footer{
     padding-bottom: 4rem;
 }
 
-footer a{
+footer a{ 
     font-size: 1.2rem;
     padding: 0.5rem;
     color:rgb(21, 36, 132);
 }
 
-img {
-    display: block;
-    margin: 3rem 0;
-    padding: 0;
-    max-width: 100%;
-}
