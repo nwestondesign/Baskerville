@@ -97,6 +97,9 @@ a {
 
 }
 
+html {
+    scroll-padding-top: 10rem;
+}
 /*--footer styling--*/
 
     footer{
