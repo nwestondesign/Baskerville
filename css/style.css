@@ -10,14 +10,14 @@
 /*--starting main styling--*/
 
 body {
-    background: #f6f6f6;
+    background: rgb(246, 246, 246);
     color: #333;
     font-family: baskerville-urw, serif;
 }
 
 section, header, footer {
     width: 80%;
-    max-width: 700px;
+    max-width: 600px;
     margin: auto;
 }
 
@@ -40,9 +40,13 @@ h1, h2 {
 
 h1 {
     font-size: 5.653rem;
-    margin-top: 10rem;
+    margin-top: 0rem;
     padding-bottom: 3rem;
     font-style: bold
+}
+
+p {
+    font-size: 1.2rem;
 }
 
 blockquote {
@@ -54,9 +58,15 @@ blockquote {
 
 h2{
     font-size: 1.999rem;
-    margin: 1rem 0 2rem 0;
+    margin: 3rem 0 2rem 0;
 }
 
+hr{
+    margin: auto;
+    width: 600px;
+    color:rgb(21, 36, 132);
+    font-weight: 2pt;
+}
 /*--nav styling--*/
 
 nav {
@@ -80,6 +90,9 @@ nav ul li {
     display: inline;
     margin: 20px;
     background: none;
+   
+    padding-left: 3.5%;
+    padding-right: 3.5%;
 }
 
 nav a {
@@ -113,7 +126,7 @@ table {
 }
 
 caption {
-    margin: 3rem 0;
+    margin: 0rem 0 3rem 0;
     text-transform: uppercase;
     letter-spacing: 0.8px;
     font-size: 1.3rem;
@@ -126,7 +139,7 @@ th {
     font-weight: bold;
     
     letter-spacing: 0.8px;
-    color:#f5f5f5;
+    color:rgb(245, 245, 245);
     background-color: rgb(21, 36, 132);
 }
 
@@ -137,7 +150,7 @@ th, td {
 
 table, td{
     background-color: rgb(197, 203, 235);
-    border: 1px solid rgb(21, 36, 132);
+    border: 2px solid rgb(246, 246, 246);
 }
 
 /*--footer styling--*/
@@ -152,4 +165,11 @@ footer a{
     font-size: 1.2rem;
     padding: 0.5rem;
     color:rgb(21, 36, 132);
+}
+
+img {
+    display: block;
+    margin: 3rem 0;
+    padding: 0;
+    max-width: 100%;
 }
