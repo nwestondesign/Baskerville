@@ -45,6 +45,10 @@ h1 {
     font-style: bold
 }
 
+.kerntight {
+    letter-spacing: -50px;
+}
+
 p {
     font-size: 1.2rem;
 }
@@ -71,6 +75,8 @@ h2{
     color:rgb(21, 36, 132);
     text-transform: uppercase;
 }
+
+
 
 /*--nav styling--*/
 
