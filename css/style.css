@@ -285,6 +285,46 @@ footer .connections a:hover svg path {
     img{
         padding-top: 7rem;
         margin: 0;
+        width: auto;
+    }
+
+    table {
+        margin: auto;
+        display: table;
+        border-collapse: collapse;
+        border-spacing: 2px;
+        margin-bottom: 1.5rem;
         width: 100%;
+        padding-bottom: 1.5rem;
+    }
+    
+    caption {
+        margin: 1.5rem 0 1.5rem 0;
+        text-transform: uppercase;
+        letter-spacing: 0.8px;
+        font-size: 1.3rem;
+        color: rgb(21, 36, 132);
+    
+    }
+    
+    th {
+        text-transform: uppercase;
+        font-weight: bold;
+        font-size: 0.7rem;
+        letter-spacing: 0.8px;
+        color:rgb(245, 245, 245);
+        background-color: rgb(21, 36, 132);
+    }
+    
+    th, td {
+        padding: 1rem;
+        text-align: center;
+    }
+    td{
+        font-size: 0.8rem;
+    }
+    table, td{
+        background-color: rgb(197, 203, 235);
+        border: 2px solid rgb(246, 246, 246);
     }
        }
