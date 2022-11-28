@@ -121,6 +121,12 @@ a {
 
 }
 
+.gridimage {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    column-gap: 0px;
+}
+
 html {
     scroll-padding-top: 10rem;
 }
@@ -244,10 +250,41 @@ footer .connections a:hover svg path {
     transition: all 0.3s ease-in-out;
 }
 
-@media (max-width: 400px) {
+@media (max-width: 850px) {
+    img{
+        padding-top: 7rem;
+        margin: 0;
+        width: 100%;
+    }
+    h1{
+        padding-top: 3rem;
+    }
+}
+
+@media (max-width: 500px) {
     body{
-        margin: auto, 0;
+        margin: auto;
         font-size: 110%
     }
 
-}
+    h1{
+        padding-top: 3rem;
+        padding-bottom: 0rem;
+        font-size:4.2rem;
+    }
+
+    h2{
+        margin-top: 2rem;
+    }
+
+    nav ul li {
+        padding: 0;
+        margin: 1rem;
+    }
+
+    img{
+        padding-top: 7rem;
+        margin: 0;
+        width: 100%;
+    }
+       }
