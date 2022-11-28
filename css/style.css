@@ -162,9 +162,9 @@ table, td{
 /*--hr styling--*/
 
 hr{
-    margin: 100px 0;
+    margin: auto;
     height: 2px;
-    width: 600px;
+    width: 100%;
     color:rgb(21, 36, 132);
     background-color: rgb(21, 36, 132);
     border: 0 none;
@@ -236,4 +236,12 @@ border: none;
 footer .connections a:hover svg path {
     fill: rgb(131, 131, 131);
     transition: all 0.3s ease-in-out;
+}
+
+@media (max-width: 400px) {
+    body{
+        margin: auto, 0;
+        font-size: 110%
+    }
+
 }
